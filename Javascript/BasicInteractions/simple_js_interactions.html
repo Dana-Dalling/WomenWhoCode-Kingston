@@ -1,0 +1,56 @@
+<!doctype HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/interactions.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div id="header">
+			<h1>Welcome to WWCODE Javascript Week2</h1>
+			<p>Today will be about learning simple javascript interactions with the DOM</p>
+		</div>
+	</div>
+	<div class="container">
+		<div class="one-third-column white-bg">
+			<h2>What is DOM?</h2>
+			<p id="dom_meaning_text" style="display:none;">
+				The Document Object Model (DOM) is an application programming interface (API) for valid HTML and well-formed XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated
+			</p>
+			<div onclick="dom_meaning()" class="button">Show Meaning</div>
+		</div>
+
+		<div class="one-third-column white-bg">
+			<h2>What is HTML</h2>
+			<p id="html_meaning_text" style="display:none;">
+				Hypertext Markup Language, a standardized system for tagging text files to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages
+			</p>
+			<div onmouseover="show_html_meaning()" class="button">Show Meaning on MouseOver</div>
+		</div>
+
+		<div class="one-third-column white-bg">
+			<h2>What is Javascript</h2>
+			<p id="js_meaning" style="display: none;">
+				An object-oriented computer programming language commonly used to create interactive effects within web browsers
+			</p>
+			<div onmouseout="show_js_meaning()" class="button">Show Meaning on MouseOut</div>
+		</div>
+	</div>
+	<div class="container">
+		<div id="change-box1" class="one-third-column white-bg">
+			<p>Change my background color, font-size and color</p>
+			<div onclick="apply_box1_styles()" class="button">click me</div>
+		</div>
+
+		<div id="change-box2" class="one-third-column white-bg">
+			<p>Hide Me</p>
+			<div onclick="hide_element('change-box2')" class="button">click me</div>
+		</div>
+
+		<div id="change-box3" class="one-third-column white-bg">
+			<p>Increase my height</p>
+			<div onclick="increase_height()" class="button">click me</div>
+		</div>
+	</div>
+</body>
+</html>
