@@ -1,0 +1,9 @@
+#header-wrapper{
+	background: #990000;
+	padding: 1em 0;
+}
+
+#main-image-wrapper{
+	background: url("../img/healthy-food.jpg");
+	height: 400px;
+}
